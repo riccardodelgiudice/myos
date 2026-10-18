@@ -1,0 +1,19 @@
+# Compiled objects and build products
+build/
+*.o
+*.iso
+
+# Legacy generated ISO files
+iso/boot/kernel.elf
+iso/limine-bios-cd.bin
+iso/limine-bios.sys
+
+# Downloaded Limine dependencies, if created outside build/
+limine-binary/
+limine-binary.tar.*
+
+# Common editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
